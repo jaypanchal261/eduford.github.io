@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Poppins:wght@200;300;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ad5f4c0450.js" crossorigin="anonymous"></script>
+    <title>Eduford- learning made easy</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+         <h1>About Us</h1>
+    </section>
+   
+     <section class="about-us">
+         <div class="row">
+             <div class="about-col">
+                 <h1>We are the World's largest University</h1>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non officiis eum nemo inventore velit amet delectus laborum aspernatur ratione sint at necessitatibus quasi sed, quis laboriosam impedit dolore ullam facilis porro exercitationem. Minus aliquam magni rem soluta maiores accusamus beatae?</p>
+                 <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+             </div>
+             <div class="about-col">
+                 <img src="images/about.jpg" alt="">
+             </div>
+         </div>
+     </section>
+
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur est ut voluptatum dicta tempore ducimus, delectus officiis repudiandae tempora, fuga</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+           <a href="https://www.instagram.com/mr_jacks___/"><i class="fa-brands fa-instagram"></i></a> 
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made with<i class="fa-regular fa-heart"></i>by Jay Panchal</p>
+    </footer>
+
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+
+</body>
+
+</html>
