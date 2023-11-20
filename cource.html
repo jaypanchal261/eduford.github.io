@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Poppins:wght@200;300;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ad5f4c0450.js" crossorigin="anonymous"></script>
+    <title>Eduford- learning made easy</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cource.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+         <h1> Our Cources </h1>
+    </section>
+   
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+        <div class="row">
+
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates omnis iste sunt dicta, praesentium sit asperiores veritatis reiciendis dolorem quasi suscipit aliquid, veniam expedita at quae id ducimus esse?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates omnis iste sunt dicta, praesentium sit asperiores veritatis reiciendis dolorem quasi suscipit aliquid, veniam expedita at quae id ducimus esse?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates omnis iste sunt dicta, praesentium sit asperiores veritatis reiciendis dolorem quasi suscipit aliquid, veniam expedita at quae id ducimus esse?</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+         
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores in incidunt commodi? Animi, accusantium nesciunt.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores in incidunt commodi? Animi, accusantium nesciunt.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores in incidunt commodi? Animi, accusantium nesciunt.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur est ut voluptatum dicta tempore ducimus, delectus officiis repudiandae tempora, fuga</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+           <a href="https://www.instagram.com/mr_jacks___/"><i class="fa-brands fa-instagram"></i></a> 
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made with<i class="fa-regular fa-heart"></i>by Jay Panchal</p>
+    </footer>
+
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+
+</body>
+
+</html>
